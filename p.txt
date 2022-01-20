@@ -1,0 +1,17 @@
+<form method ="post">
+                        <p>
+                            <label>Enter your College Email ID<span>*</span></label>
+                            <input id = "text" type="text" name="user_name">
+                        </p>
+                        <p>
+                            <label>Password<span>*</span></label>
+                            <input id="text" type="password" name="password"><br>
+
+                        </p>
+                         <input a href="log in.php" id = "button" type = "submit" value ="Login">
+                        
+                        <p>
+                            <a href="">Forget password?</a>
+                        </p>
+
+                    </form>

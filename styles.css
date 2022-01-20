@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(to right,blue ,red)
+}
+nav{
+    width: 80%;
+    position:sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items:center;
+    
+}
+.logo{
+    flex-basis: 20%;
+
+}
+.logo img{
+    width: 1px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+    display: flex;
+    color: #fff;
+
+}
+ #circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 50%;
+    transform: rotate();
+    transition: 1s;
+
+   
+}
+.feature img{
+    width: 80px;
+}
+.feature{
+    position:absolute;
+    display: flex;
+    color: #fff;
+   
+}
+.feature div{
+    margin-left: 30px;
+
+}
+.feature div p{
+    margin-top: 8px;
+}
+.one {
+    top: 450px;
+    right: 15px;
+    color:black;
+}
+.two{
+    top: 130px;
+    left: 300px;
+    transform: rotate(-90deg);
+    color:black;
+}
+.three{
+    bottom: 450px;
+    left: 0px;
+    transform: rotate(-180deg);
+    color:black;
+    
+}
+.four{
+    bottom: 200px;
+    right: 350px;
+    transform: rotate(-270deg);
+    color:black;
+}
+.log{
+    width: 200px;
+    position:absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 1;
+}
+.controls{
+    position:absolute;
+    right: -24%;
+    top: 52%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+.controls h3{
+    margin: 15px 0;
+    color: #fff;
+
+}
+#upbtn{
+    width: 15px;
+    cursor: pointer;
+}
+#downbtn{
+    width: 15px;
+    cursor: pointer;
+
+}
+.overlay{
+    width: 0%;
+    height: 0%;
+    border-top: 500px solid black;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid black;
+    border-left: 500px solid black;
+    position:absolute;
+    left: 0;
+    top: 0;
+
+}
+.information img{
+    top: 10.85cm;
+    left: 10cm;
+}
+.ab a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
